@@ -30,14 +30,14 @@ const projectsData = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="pt-10 mt-12 md:mt-20 lg:mt-30">
       <Typography
         variant="h2"
-        className="text-[#4EA571] text-center font-bold mb-10"
+        className="text-[#4EA571] text-center text-2xl font-bold mb-10 lg:text-4xl"
       >
         Projects
       </Typography>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:mt-20 lg:grid-cols-2 lg:p-6">
         {projectsData.map((project, index) => (
           <div
             key={index}
@@ -48,15 +48,15 @@ const Projects = () => {
               alt={project.title}
               className="w-full h-48 object-cover rounded-t-lg"
             />
-            <h3 className="text-xl font-semibold text-[#000000] mt-2">
+            <h3 className="text-lg font-semibold text-[#000000] mt-2 lg:text-2xl lg:mt-5">
               {project.title}
             </h3>
-            <p className="text-gray-600 mb-4">{project.description}</p>
-            <div className="flex flex-wrap space-x-2">
+            <p className="text-gray-600 text-sm mb-4 lg:text-lg lg:mt-2">{project.description}</p>
+            <div className="flex space-x-1 lg:space-x-2">
               {project.badges.map((badge, idx) => (
                 <span
                   key={idx}
-                  className="bg-[#4EA571] text-white px-2 py-1 rounded"
+                  className="bg-[#4EA571] text-white text-sm px-2 py-1 rounded lg:text-lg"
                 >
                   {badge}
                 </span>
