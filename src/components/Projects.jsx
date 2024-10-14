@@ -52,11 +52,11 @@ const Projects = () => {
               {project.title}
             </h3>
             <p className="text-gray-600 text-sm mb-4 lg:text-lg lg:mt-2">{project.description}</p>
-            <div className="flex space-x-1 lg:space-x-2">
+            <div className="flex flex-wrap lg:space-x-2">
               {project.badges.map((badge, idx) => (
                 <span
                   key={idx}
-                  className="bg-[#4EA571] text-white text-sm px-2 py-1 rounded lg:text-lg"
+                  className="bg-[#4EA571] text-white text-sm mr-1 px-2 py-1 mt-1 rounded lg:text-lg"
                 >
                   {badge}
                 </span>
