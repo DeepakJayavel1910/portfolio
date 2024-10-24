@@ -53,7 +53,7 @@ const Navbar = () => {
               duration={500}
               className="text-blue-700 hover:text-blue-500 cursor-pointer font-bold text-sm md:text-md lg:text-lg"
             >
-              CONTACTS
+              CONTACT
             </Link>
           </li>
         </ul>

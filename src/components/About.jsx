@@ -8,11 +8,11 @@ const About = () => {
     <section id="about" className="pt-20">
       <div className="grid content-center place-items-center md:grid-cols-2 md:mt-10 lg:mt-16">
         <div className="flex justify-center items-center w-full p-2">
-          <div className="w-3/4">
+          <div className="flex justify-center items-center w-3/4">
             <img
               src={deepak}
               alt="About Me"
-              className="rounded-2xl shadow-2xl object-cover"
+              className="rounded-2xl w-3/4"
             />
           </div>
         </div>

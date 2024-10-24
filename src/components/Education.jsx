@@ -7,12 +7,12 @@ const Education = () => {
     {
       institution: "Government College of Technology",
       degree: "Bachelor of Information Technology",
-      duration: "2010 - 2024",
+      duration: "2020 - 2024",
     },
     {
       institution: "SRV Boys High School",
       degree: "Higher Secondary Education",
-      duration: "2018-2020",
+      duration: "2018 - 2020",
     }
   ];
 
