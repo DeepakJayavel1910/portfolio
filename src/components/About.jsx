@@ -57,7 +57,7 @@ const About = () => {
           </div>
           <div className="flex justify-center my-6">
             <a
-              href="https://drive.google.com/file/d/1bHWRaRAdpA_AnASFF-iBSHvF06p1Punq/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1glQR8ztEPmP5f-cP9sRJTVdHfCRo3vYW/view?usp=sharing"
               className="bg-[#4EA571] text-white text-sm py-1 px-2 lg:text-lg rounded-lg hover:bg-[#337CA0]"
             >
               Download CV
